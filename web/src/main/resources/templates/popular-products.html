@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>
+    Response At : <span th:text="${#dates.format(#dates.createNow(), 'dd MMM yyyy HH:mm:ss')}"></span>
+</h1>
+</body>
+</html>
